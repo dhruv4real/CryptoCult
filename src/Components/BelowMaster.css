@@ -1,0 +1,263 @@
+
+.MasterPage-footer{
+    background: linear-gradient(247deg, #F9A700 -87.08%, #000 64.74%);
+}
+
+
+.all-community-container {
+    height: 100vh;
+    width: 100vw;
+    background-color: #000;
+}
+.RectangleTranslucent {
+    position: relative;
+    width: 110%;
+    height: 10rem;
+    flex-shrink: 0;
+    background: #B97E05;
+    transform: rotate(0.033deg);
+    margin-left: -1%; 
+    margin-top: 5.5rem;
+    z-index: 0;
+}
+
+
+
+.Rectangle{
+
+    position: absolute;
+    width: 110vw;
+    margin-top: 4vh;
+    height: 13.808rem;
+    transform: rotate(-0.4deg);
+    top: 102%;
+    flex-shrink: 0;
+    margin-left: -1%; 
+    z-index: 1;
+    
+
+}
+
+.community-content{
+    position: absolute;
+    margin-top: 2.8vh;
+    top: 109%;
+    rotate: -1deg;
+    z-index: 10;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.community-box {
+    box-shadow: #000 0.1rem 0.2rem 0.5rem;
+    width: 15%;
+    height: 5rem;
+    padding: 1.0625rem 2.47688rem 1.0625rem 2.5rem;
+    background-color: #FFF;
+    border-radius: 1.5rem;
+    z-index: 10;
+    display: flex;
+}
+
+.CJLogo {
+    left: 3vw;
+    bottom: 0.7rem;
+    position: absolute;
+    border-radius: 1.875rem;
+    width: 6.99519rem;
+    height: 5.42525rem;
+    transform: rotate(-2.825deg);
+}
+
+.community-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.community-title{
+    transform: rotate(0.178deg);
+    color: #000;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.875rem;
+    width: 10rem;
+}
+
+
+.community-desc {
+
+    color: rgba(0, 0, 0, 0.65);
+    font-family: Manrope;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1rem; /* 225% */
+    letter-spacing: 0.01875rem;
+    width: 9.5rem;
+
+}
+
+.CCLogo{
+    left: 27.3vw;
+    top: 0.5rem;
+    position: absolute;
+    width: 6.8rem;
+    height: 6rem;
+    transform: rotate(-2.825deg); 
+}
+
+.cryptocult-info {
+    margin-left: 2.5rem;
+}
+
+.cryptojargon-info {
+    margin-left: 4.5rem;
+
+}
+
+.cc-desc {
+    margin-left: 4.3rem;
+}
+
+.CKCLogo{
+    left: 53vw;
+    top: 0.7rem;
+    position: absolute;
+    transform: rotate(-2.825deg);
+    border-radius: 1.875rem;
+    width: 6.24706rem;
+    height: 6.12788rem;
+}
+
+.ckc-info{
+    margin-left: 4.3rem;
+
+}
+
+.GJLogo {
+    left: 78vw;
+    top: 0.9rem;
+    position: absolute;
+    transform: rotate(-2.825deg);
+    border-radius: 1.875rem;
+    width: 6.5rem;
+    height: 5.5rem;
+}
+
+.gj-info {
+    margin-left: 5rem;
+
+}
+
+.top-threads-heading{
+    margin-top: 20vh;
+    width: 100vw;
+    height: 10vh;
+    justify-content: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 5.625rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.9375rem; /* 70% */
+}
+
+.top-threads-body {
+    align-items: baseline;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    display: flex;
+    margin-top: 5vh;
+    justify-content: center;
+    gap: 4vw;
+}
+
+.top-threads-section{
+    z-index: 1;
+}
+
+.tweet-container{
+    transition: transform 0.5s ease; /* Add the transition property to all tweet containers */
+    width: 25vw;
+    height: 15vh;
+    padding: 2.5625rem 0rem 2.5rem 0rem;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 0.6875rem;
+    background: #F7F7F7;
+    box-shadow: 0px 0px 24px 10px rgba(249, 167, 0, 0.40);
+}
+
+#tweet-mid-container{
+    width: 35vw;
+    height: 25vh;
+    border-radius: 0.6875rem;
+    background: #FFF;
+    box-shadow: 0px 0px 24px 10px rgba(249, 167, 0, 0.40)
+}
+
+.leftTweet {
+    width: 100%;
+    height: 100%;
+}
+
+.centerTweet {
+    width: 100%;
+    height: 100%;
+}
+
+.rightTweet {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.scroll-arrow {
+    
+    width: 5rem; /* Adjust the size of the arrow container */
+    height: 2.5rem; /* Adjust the size of the arrow container */
+    position: absolute;
+    cursor: pointer;
+    animation: bounce 2s infinite;
+    top: 96vh;    
+    margin-left: 50vw;
+}
+
+.arrow {
+    opacity: 0.7;
+    transform: rotate(180deg);
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent; /* Adjust the size of the arrow */
+    border-right: 10px solid transparent; /* Adjust the size of the arrow */
+    border-bottom: 15px solid #F9A700; /* Arrow color and size */
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-10px);
+    }
+    60% {
+        transform: translateY(-5px);
+    }
+}
+
+
+
+.tweet-container:hover {
+    transform: scale(1.1);
+    transition: 1s; 
+}
+

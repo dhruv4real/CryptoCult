@@ -1,0 +1,162 @@
+.ArticlePage {
+    width: 100vw;
+    height: 120vh;
+    background: #FFB00E;
+    padding-top: 20vh;
+
+}
+
+.ArticlePage-heading{
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.85rem; /* 71.25% */
+}
+
+
+.topics-container {
+    padding-left: 3rem;
+    margin-top: 8vh;
+    margin-left: 12vw;
+    width: 75vw;
+    border-radius: 1rem;
+    height: 10vh;
+    background-color: #000;
+    
+}
+
+.topics {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.topics-btn {
+    width: auto;
+    border-color: white;
+    border-radius: 3rem;
+background-color: #000;
+font-family: Manrope;
+padding: 1rem;
+font-size: 1rem;
+font-style: normal;
+font-weight: 600;
+line-height: 1.3125rem; /* 150% */
+}
+
+.topics-btn p {
+    color: white;
+}
+
+.article-container-left {
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+    margin-top: 4vh;
+    width: 35vw;
+    height: 60vh;
+    background-color: white;
+    border-radius: 1.4375rem;
+}
+
+.article-header{
+font-family: Manrope;
+font-size: 1rem;
+font-style: normal;
+font-weight: 500;
+line-height: 1.21875rem; /* 121.875% */
+color: #000;
+font-family: Manrope;
+font-size: 1rem;
+font-style: normal;
+font-weight: 700;
+line-height: 1.21875rem;
+color: #8C8C8C;
+font-family: Manrope;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.21875rem;
+}
+
+
+.writer-name{
+    font-weight: 700;
+    color: black;
+
+}
+
+.leftArticleImage {
+    width: 94%;
+    margin-top: 0.5rem;
+
+}
+
+.article-title{
+    color: #000;
+margin-top: 0.6rem;
+font-family: Manrope;
+font-size: 2rem;
+font-style: normal;
+font-weight: 800;
+line-height: 1.875rem; 
+}
+
+.article-desc{
+    color: #000;
+    margin-top: 0.5rem;
+width: 75%;
+font-family: Manrope;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5rem; /* 120% */
+}
+
+.tags {
+    display: flex;
+    font-size: 0.8rem;
+    height: 2rem;
+    align-items: center;
+    flex-shrink: 0; 
+    border-radius: 0.9375rem;
+    background: #F2F2F2;
+    width: auto;
+    padding: 1rem;
+}
+
+
+.tags-content{
+}
+.article-footer{
+    display: flex;
+align-items: center;
+}
+
+.article-box{
+    margin-left: 3rem;
+    width: 20vw;
+height: 40vh;
+flex-shrink: 0;
+border-radius: 1.4375rem;
+background: #FFF;
+box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.16);
+}
+
+
+.article-container {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+.article-container-right{
+    margin-top: 4vh;
+    display: flex;    
+    flex-wrap: wrap;
+}
+

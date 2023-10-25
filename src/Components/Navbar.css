@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.navBar {
+    background: black;
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.dropdown-btn {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    background-color: #F9A700;
+    color: black;
+    padding: 0.5rem 1rem;
+    border: none;
+    font-family: 'Manrope', sans-serif;
+    font: 800;
+    border-radius: 5px;
+    display: inline-block;
+    align-items: center; /* Center align vertically */
+
+}
+
+.dropdown-content {
+    border-radius: 10px;
+    min-width: 115px;
+    position: absolute;
+    top: 100%;
+    display: none;
+    position: absolute;
+    background-color: white;
+}
+.dropdown-box{
+    border-radius: 5px;
+
+}
+.dropdown-content a {
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover {
+    background-color: #F9A700;
+    color: white;
+}
+.dropdown-btn:hover {
+    background-color: white;
+}
+.dropdown-btn:hover .dropdown-content {
+    display: block;
+}
+
+.threads {
+    margin-left: 2rem;
+    color: aliceblue;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: 'Manrope', sans-serif;
+    font-size: larger;
+
+}
+
+.navdropdownarrow {
+    margin-left: 0.5rem;
+    width: 0.6rem;
+    margin-bottom: 0.1vh;
+}
+
+.navBar-left {
+    padding-left: 1.5rem;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+}
+
+.navBar-right{
+    align-items: center;
+    justify-content: space-between;
+    white-space: nowrap;
+    margin-right: 1.5rem;
+
+}
+
+.navBar-center {
+    display: flex;
+    justify-content: center;
+}
+
+.CryptoCultNavLogo {
+    margin-top: 1.5rem;
+    width: 50%;
+    margin-left: 10vw;
+}
+
+
+
+.nav-item-right {
+    color: aliceblue;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: 'Manrope', sans-serif;
+    font-size: larger;
+    margin-left: 3rem;
+    text-align: center;
+
+}
+
+.JoinCult {
+    cursor: pointer;
+    margin: 1%;
+    margin-bottom: 1rem;
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+    background-color: #F9A700;
+    color: black;
+    padding: 0.5rem;
+    border: none;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+    border-radius: 20px;
+    display: inline-block;
+    font-size: large;
+}
+
+
+
+
+
+.dropdown-box {
+    text-decoration: none;
+    background: white;
+    font-family: 'Manrope', sans-serif;
+    color: black;
+    
+}
+
+.JoinCult:hover{
+    background-color: white;
+    color: black;
+    
+}
+
+.nav-item-right:hover a{
+    color: #F9A700;
+}
+
+.threads:hover{
+    color: #F9A700;
+}
+
+@media screen and (max-width: 600px) {
+    
+    .navBar {
+        flex-direction: row-reverse; /* Stack items vertically */
+        justify-content: space-between;
+    }
+
+    .navBar-left {
+        padding: 1rem; /* Add spacing between items */
+        flex-wrap: nowrap;
+    }
+
+    .threads {
+        display: none;
+    }
+
+    .CryptoCultNavLogo {
+        margin: 1rem 0;
+        margin-top: 2rem;
+    }
+
+    .navBar-right {
+        display: none;
+    }
+
+    .nav-item-right {
+        display: none; /* Stack links vertically */
+        margin: 0.5rem 0; /* Add margin for spacing */
+    }
+
+
+
+    .dropdown-btn {
+        flex-direction: row; /* Display the dropdown horizontally */
+        justify-content: space-between; /* Space between the text and arrow */
+        padding: 0.6rem;
+        white-space: nowrap;
+        display: flex;
+
+    }
+
+    .navdropdownarrow {
+        display: block; /* Display the arrow below the text */
+  
+    }
+
+    .dropdown-content {
+        display: none;
+    }
+
+    .dropdown-btn:hover .dropdown-content {
+        display: block;
+    }
+    .JoinCult {
+        display: none;
+    }
+}
+

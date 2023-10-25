@@ -1,0 +1,147 @@
+.youtube-section{
+ background-color: black;
+ height: 90vh;
+ width: 100vw;
+}
+
+.YoutubeLogo {
+width: 19rem;
+height: 12rem;
+transform: translateY(-4rem);
+}
+
+
+
+.heading {
+    text-align: center;
+    padding-top: 6rem;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: bottom;
+}
+
+.heading{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.9375rem; 
+}
+
+.youtube-carousel {
+    margin-top: 15vh;
+    margin-left: 1vw;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    gap: 2rem;
+    margin-bottom: 0;
+
+}
+
+.thumbnail1 {
+    height: 17rem;
+    width: 30rem;
+    z-index: 1;
+    position: relative;
+
+}
+
+
+.thumbnail2 {
+    height: 17rem;
+    width: 30rem;
+    z-index: 1;
+    position: relative;
+
+
+
+}
+
+
+.thumbnail3 {
+    height: 17rem;
+    width: 30rem;
+    z-index: 1;
+    position: relative;
+
+
+
+}
+
+.left-vid{
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 20px solid rgba(255, 255, 255, 0.74);
+}
+
+.right-vid{
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 20px solid rgba(255, 255, 255, 0.74);
+}
+
+.on-hover {
+    margin-left: 0.9rem;
+    margin-top: 8rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    background-color: white;
+    width: 26rem;
+    align-items: center;
+    height: 13rem;
+    border-radius: 0.8rem;
+    transform: translateY(-10rem);
+    z-index: 0;
+    padding-top: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    display: none;
+}
+
+.yt-title {
+    color: #000;
+    width: 100%;
+font-family: Arial;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: 2.40625rem; /* 120.313% */
+}
+
+.yt-desc {
+    color: #6C6C6C;
+margin-top: 1.1rem;
+width: 100%;
+font-family: Manrope;
+font-size: 1rem;
+font-style: normal;
+font-weight: 700;
+line-height: 1.875rem; 
+}
+
+.vid:hover .on-hover{
+    transition: 3s linear ;
+    display: block;
+    position: absolute;
+}
+
+.on-hover-footer {
+    transform: translateY(2.5rem);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}

@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+
+}
+
+.master-page {
+    background-color: black;
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.master-line{
+    margin-top: 3%;
+    margin-left: 4%;
+    display: flex;
+    width: 70%;
+    font-family: Manrope;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 5.3125rem;
+    background: linear-gradient(140deg, #FFF 35.19%, #F9A700 74.23%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.sub-master-line{
+    margin-top: 3%;
+    margin-left: 4%;
+    display: flex;
+    width: 30%;
+    height: 4.3125rem;
+    flex-direction: column;
+    justify-content: center;
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2.25rem; /* 150% */
+    letter-spacing: 0.01875rem;
+}
+
+.joincult-form{
+    position: relative;
+    margin-top: 3%;
+    margin-left: 4%;
+    width: 25%;
+}
+
+.master-left {
+  margin-top: 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+  
+.input {
+    position: relative;
+    border: 0;
+    border-radius: 2rem;
+    display: block;
+    font-family: 'Muli', sans-serif;
+    font-size: 14px;
+    padding: 0.7rem 1.5rem;
+    width: 80%;
+   
+
+  }
+  .btn {
+    background-color: #F9A700;
+    position: absolute;
+    border: 0;
+    border-radius: 2rem;
+    color: black;
+    font-size: 14px;
+    padding: 0.7rem 1.5rem;
+    top: 0; 
+    right: 1%;
+
+  }
+
+  .btn:hover{
+    background-color: #FFF;
+  }
+  .MasterImage{
+    width: 40rem;
+    height: 50rem;
+  }
+
+  .master-right {
+    margin-top: 2vh;
+    position: absolute;
+    right: 0;
+    top: 0;
+
+
+  }
+
+.bottom-master {
+    color: #FFF;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 23vh;
+    line-height: 1.875rem; /* 125% */
+    letter-spacing: 0.01875rem;
+    bottom: 0;
+    left: 30%;
+}
+
+.bottom-master-number {
+    color: #F9A700;
+    font-family: Manrope;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.875rem;
+    letter-spacing: 0.01875rem;
+}
+
+
+.MasterPage-footer {
+    overflow: hidden;
+}
+
+

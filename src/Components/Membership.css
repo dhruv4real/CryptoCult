@@ -1,0 +1,103 @@
+
+.membership-page {
+    padding-top: 15vh;
+    height: 60vh;
+    width: 100vw;
+    background-color: black;
+}
+
+.membership-container {
+    display: flex;
+    margin-left: 15vw;
+    width: 70vw;
+    height: 50vh;
+    align-items: flex-start;
+    border-radius: 2.1875rem;
+    background: radial-gradient(578.61% 162.25% at 28.82% 20.56%, rgba(255, 176, 14, 0.91) 59.56%, rgba(255, 176, 14, 0.00) 85.33%);
+    padding: 0;
+}
+
+
+.MembershipGirl{
+    width: 35vw;
+    height: 52vh;
+}
+
+.membership-left {
+    transform: translateX(-3rem);
+}
+.membership-right {
+    white-space: nowrap;
+    left: 0;
+    color: black !important;
+    margin-top: 3rem;
+    font-family: Manrope;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 5rem; 
+    transform: translateX(-9rem);
+
+}
+
+.cryptocult-box {
+    background-color: #000;
+    color: #F9A700;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 2.5rem;
+    padding-bottom: 0.5rem;
+
+
+}
+
+
+.box {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.membership-desc{
+    color: #000;
+
+font-family: Manrope;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 500;
+line-height: 2.25rem; /* 120% */
+letter-spacing: 0.01875rem;
+display: flex;
+flex-direction: column;
+justify-content: center;
+white-space: normal; /* Allow text to wrap to the next line */
+margin-top: 2rem;
+max-width: 85%;
+}
+
+.joinnow {
+    transform: translateX(-1rem);
+    cursor: pointer;
+    margin: 1%;
+    margin-bottom: 1rem;
+    margin-top: 1.5rem;
+    left: 0;
+    background-color: black;
+    color: white;
+    border: none;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    border-radius: 5rem;
+    display: inline-block;
+    width: 8.9375rem;
+    height: 3rem;
+    font-size: x-large;
+    transition: background-color 0.3s ease;
+     /* Smooth transition effect */
+    transition: color 0.3s ease;
+}
+
+.joinnow:hover{
+    background-color: white;
+    color: black;
+    transition: 0.3s ease;
+}
